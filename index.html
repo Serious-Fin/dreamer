@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,17 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main>
+      <h1>Giphy Search Engine</h1>
+
+      <div id="result">Giphy will appear here</div>
+
+      <form>
+        <label for="prompt">Search Giphy</label>
+        <textarea name="prompt" maxlength="100"></textarea>
+        <button type="submit">Search</button>
+      </form>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
